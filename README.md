@@ -74,4 +74,4 @@ Flashcard Quiz is a polished, feature-rich Android application designed to help 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-*Developed with ❤️ by Umer*
+*Developed with ❤️ by Usman Ali*
