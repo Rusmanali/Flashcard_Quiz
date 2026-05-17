@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Flashcard Quiz</string>
+    <string name="my_flashcards">My Flashcards</string>
+    <string name="add_flashcard">Add Flashcard</string>
+    <string name="edit_flashcard">Edit Flashcard</string>
+    <string name="study_mode">Study Mode</string>
+    <string name="question_hint">Question</string>
+    <string name="answer_hint">Answer</string>
+    <string name="save_flashcard">Save Flashcard</string>
+    <string name="update_flashcard">Update Flashcard</string>
+    <string name="start_studying">Start Studying</string>
+    <string name="search_hint">Search flashcards&#8230;</string>
+    <string name="empty_message">No flashcards found.\nTap + to add one!</string>
+    <string name="show_answer">SHOW ANSWER</string>
+    <string name="show_question">SHOW QUESTION</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="card_progress">Card %1$d of %2$d</string>
+    <string name="delete_title">Delete Flashcard</string>
+    <string name="delete_message">Are you sure you want to delete this flashcard?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="question_mark">\?</string>
+    <string name="flash">FLASH</string>
+    <string name="card">CARD</string>
+    <string name="quiz_label">— QUIZ —</string>
+    <string name="tagline">Learn. Recall. Succeed.</string>
+    <string name="loading">Loading&#8230;</string>
+</resources>
