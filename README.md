@@ -1,44 +1,77 @@
-# Flashcard Quiz App
+# 📚 Flashcard Quiz - Modern Android Learning App
 
-A modern, professional Android application for creating and studying flashcards. Built with a focus on performance, user experience, and modern Android development practices.
+[![Android API](https://img.shields.io/badge/API-24%2B-brightgreen.svg)](https://android-arsenal.com/api?level=24)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🚀 Features
+Flashcard Quiz is a polished, feature-rich Android application designed to help users learn and retain information efficiently. It combines modern Android architecture with a delightful user interface to provide a top-tier educational experience.
 
-- **Branded Splash Screen**: A custom-designed, animated splash screen with a 3D-style card logo and progress simulation.
-- **Efficient List Management**: Uses `ListAdapter` and `DiffUtil` for smooth RecyclerView updates and high performance.
-- **Interactive Study Mode**:
-    - **3D Flip Animation**: Realistic card flip effect when toggling between questions and answers.
-    - **Session Shuffling**: Automatically shuffles flashcards for a fresh learning experience every time.
-    - **Progress Tracking**: Visual progress bar and counter for your study sessions.
-- **Smart Gestures**: **Swipe-to-Delete** functionality for quick management of your flashcard deck.
-- **Dark Mode Support**: Fully optimized dark theme that switches automatically based on system settings, including a themed search bar.
-- **Edge-to-Edge Design**: Full screen experience that respects system bars (status and navigation) on all device sizes.
-- **Local Persistence**: Powered by **Room Database** for reliable offline storage.
-- **Search Functionality**: Quickly find specific flashcards using the integrated search bar.
+---
 
-## 🛠️ Tech Stack
+## ✨ Key Features
 
-- **Language**: Java / Kotlin (DSL for Gradle)
-- **Database**: Room Persistence Library
-- **UI Components**: Material Design 3, ConstraintLayout, RecyclerView
-- **Architecture**: ViewBinding for safe view access
-- **Compatibility**: Android 7.0 (API 24) and above
+### 🎨 Premium Visual Experience
+- **Custom Branded Splash**: A high-fidelity startup experience featuring 3D stacked cards, linear progress tracking, and professional gradients.
+- **Material 3 Design**: Fully compliant with modern Material Design principles for a clean and intuitive look.
+- **Dynamic Dark Mode**: A deep-themed UI that adapts to system settings, including specialized dark-mode assets like the search bar.
+- **Edge-to-Edge UI**: Seamless layout that intelligently handles system insets (Status Bar & Navigation Bar) for a truly immersive feel.
+
+### 🧠 Advanced Learning Tools
+- **3D Card Flip**: An interactive 3D rotation animation when toggling between questions and answers, mimicking real physical cards.
+- **Smart Shuffling**: Randomized deck generation for every study session to prevent "positional memory" and enhance recall.
+- **Seamless Search**: Real-time filtering of your flashcard deck using a highly responsive search interface.
+
+### 🛠️ Expert Implementation
+- **High-Performance Lists**: Leverages `ListAdapter` and `DiffUtil` to ensure minimal CPU usage and smooth 60fps animations during list modifications.
+- **Intuitive Gestures**: Integrated **Swipe-to-Delete** for rapid deck management.
+- **Robust Persistence**: Powered by **Room Database** with a clean DAO (Data Access Object) pattern for reliable local storage.
+
+---
+
+## 🛠 Tech Stack & Architecture
+
+- **Language:** Java (Core Logic) & Kotlin (Build Scripts)
+- **Database:** Room (SQLite abstraction)
+- **View Binding:** For type-safe view interaction (Replacing `findViewById`)
+- **Animations:** Property Animator & View Property Animator (Custom 3D logic)
+- **Concurrency:** Threaded background operations for database safety
+- **Layouts:** ConstraintLayout (Complex flat hierarchies) & CoordinatorLayout (Advanced UI behaviors)
+
+---
 
 ## 📸 Screenshots
-<img src="C:\Users\umer\Downloads\ChatGPT Image May 16, 2026, 11_05_39 PM.png">
-<img src="C:\Users\umer\Downloads\WhatsApp Image 2026-05-16 at 11.03.09 PM (1).jpeg">
-<img src="C:\Users\umer\Downloads\WhatsApp Image 2026-05-16 at 11.03.10 PM.jpeg">
-<img src="C:\Users\umer\Downloads\WhatsApp Image 2026-05-16 at 11.03.10 PM (1).jpeg">
-<img src="C:\Users\umer\Downloads\WhatsApp Image 2026-05-16 at 11.03.10 PM (2).jpeg">
-## 📦 Installation
 
-1. Clone the repository:
+| Splash Screen | Main List | Study Mode |
+| :---: | :---: | :---: |
+| *(Image Placeholder)* | *(Image Placeholder)* | *(Image Placeholder)* |
+
+> **Note:** To see the actual UI, please refer to the `docs/screenshots` folder (coming soon) or run the app!
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the project:**
    ```bash
    git clone https://github.com/YOUR_USERNAME/FlashcardQuiz.git
    ```
-2. Open the project in **Android Studio**.
-3. Build and Run on an emulator or physical device.
+2. **Open in Android Studio:**
+   - Go to `File > Open` and select the cloned folder.
+   - Let Gradle sync finish (usually takes 1-2 minutes).
+3. **Run the app:**
+   - Select your device/emulator and click the **Run** button.
+
+---
+
+## 🗺️ Roadmap
+- [ ] Implement AI-powered card generation.
+- [ ] Add Category/Tag support for deck organization.
+- [ ] Cloud synchronization (Firebase Integration).
+- [ ] Shared deck marketplace.
+
+---
 
 ## 📜 License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+*Developed with ❤️ by Umer*
