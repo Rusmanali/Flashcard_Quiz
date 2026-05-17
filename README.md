@@ -25,9 +25,11 @@ A modern, professional Android application for creating and studying flashcards.
 - **Compatibility**: Android 7.0 (API 24) and above
 
 ## 📸 Screenshots
-
-*(Add your screenshots here)*
-
+<img src="C:\Users\umer\Downloads\ChatGPT Image May 16, 2026, 11_05_39 PM.png">
+<img src="C:\Users\umer\Downloads\WhatsApp Image 2026-05-16 at 11.03.09 PM (1).jpeg">
+<img src="C:\Users\umer\Downloads\WhatsApp Image 2026-05-16 at 11.03.10 PM.jpeg">
+<img src="C:\Users\umer\Downloads\WhatsApp Image 2026-05-16 at 11.03.10 PM (1).jpeg">
+<img src="C:\Users\umer\Downloads\WhatsApp Image 2026-05-16 at 11.03.10 PM (2).jpeg">
 ## 📦 Installation
 
 1. Clone the repository:
