@@ -42,9 +42,9 @@ Flashcard Quiz is a polished, feature-rich Android application designed to help 
 
 | Splash Screen | Main List | Study Mode |
 | :---: | :---: | :---: |
-| *(Image Placeholder)* | *(Image Placeholder)* | *(Image Placeholder)* |
+| <img src="docs/screenshots/splash.png" width="250"> | <img src="docs/screenshots/main.png" width="250"> | <img src="docs/screenshots/study.png" width="250"> |
 
-> **Note:** To see the actual UI, please refer to the `docs/screenshots` folder (coming soon) or run the app!
+> **Note:** To see the actual UI in this README, please ensure your screenshots are saved in the `docs/screenshots/` folder as `splash.png`, `main.png`, and `study.png`.
 
 ---
 
